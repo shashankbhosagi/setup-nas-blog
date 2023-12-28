@@ -27,6 +27,119 @@ Popular NAS manufacturers include Synology, QNAP, Western Digital, and Buffalo. 
 4. External Hard Drive or USB Storage
 5. Ethernet Cable (optional)
 
+## Steps
+
+### Step 1. Setup SD card
+
+![Flashing_process_NEWe](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/78fd0556-fe11-42a1-bf13-af3ea010df7e)
+
+
+1. **Download Raspberry Pi Imager:**
+   - Download the Raspberry Pi Imager from the official Raspberry Pi website: [Raspberry Pi Imager](https://www.raspberrypi.org/software/).
+
+2. **Install Raspberry Pi Imager:**
+   - Run the installer and follow the on-screen instructions to install the Raspberry Pi Imager on your computer.
+
+3. **Insert MicroSD Card:**
+   - Insert the MicroSD card into your computer using a MicroSD card reader.
+
+4. **Launch Raspberry Pi Imager:**
+   - Open the Raspberry Pi Imager software on your computer.
+
+5. **Select Operating System:**
+   - Click on "Choose OS" and select the operating system you want to install. For a NAS setup, you might choose "Raspberry Pi OS (other)" or "Raspberry Pi OS Lite" for a minimal installation.
+
+6. **Select SD Card:**
+   - Click on "Choose SD Card" and select the MicroSD card you inserted.
+
+7. **Configure Options:**
+   - Click on "Options" at the bottom right corner of the Raspberry Pi Imager.
+
+8. **Configure Wi-Fi:**
+   - In the "Options" menu, you'll find a section for Wi-Fi.
+   - Enter your Wi-Fi SSID and password.
+
+9. **Configure Hostname:**
+   - In the same "Options" menu, you can also set the hostname directly.
+
+10. **Set Locale and Timezone (Optional):**
+    - Adjust the locale and timezone settings if needed.
+
+11. **Write the Image:**
+    - Click on "Write" to start the process. This will write the selected operating system to the MicroSD card. Note that this will erase all data on the card.
+
+12. **Wait for Completion:**
+    - Wait for the write process to complete. This may take a few minutes.
+
+13. **Eject MicroSD Card:**
+    - Once the write process is complete, safely eject the MicroSD card from your computer.
+
+14. **Insert MicroSD Card into Raspberry Pi:**
+    - Insert the MicroSD card into the Raspberry Pi.
+
+![Putting_in_the_Micro_SD_card](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/852d58ae-4aab-4574-9aa1-326d33aa4da0)
+
+
+
+### Plugin your HardDrive or Pendrive
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
