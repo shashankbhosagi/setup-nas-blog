@@ -195,14 +195,72 @@ After upgrade paste this command which will start the installation process
 sudo wget -O - https://coreelec.io/openmediavault  | sudo bash
 ```
 
-Note : It will take time, better you be prepared with some entertaiment stuff 😂👾, I am gonna watch One Piece :)
+### `Note : It will take time, better you be prepared with some entertaiment stuff 😂👾, I am gonna watch One Piece :)`
 
 Okay now it will restart bois and girls after the installation.
 
-Note : If you are connected to a wifi network wireless then after reboot it won't connect wirelessly, so plug in the RJ45 in pi and connect it via Ethernet :)
+### `Note : If you are connected to a wifi network wireless then after reboot it won't connect wirelessly, so plug in the RJ45 in pi and connect it via Ethernet :)@@`
 
 ### Step 5. Configure OpenMediaVault
 
+As we know our raspbeery pi's address its 192.168.0.105, now we will go to browser and type in searchbar `192.168.0.105` and hit enter
+
+![image](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/61a16a8d-b93f-4d26-8837-c905635bbad2)
+
+
+it should look something like this 
+
+![image](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/f08226f3-0880-4590-80ab-b0418e0550da)
+
+put default credentials as 
+username : `admin`
+password : `openmediavault`
+
+after login it must look like this,
+
+![image](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/7ac679b9-2a9a-45fd-b01b-ee42606cafac)
+
+go to user setting and click on change password
+
+![image](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/2d2fde2b-b271-4b07-a438-3dc81c3e0346)
+
+put new and secure password and then click change password..
+
+next step is to go to user section in left and onfigure new user which we will access from our computer 
+
+![image](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/4da4564d-0509-4c9d-b406-c35292f5fa48)
+
+![image](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/f0b0c551-7b94-402c-85d3-daf25d461f20)
+
+click on save after entering the details 
+
+![image](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/c93d70ed-7ecb-419a-9621-0a1457ae45b6)
+
+Now one more thing whenever you make any changes a yellow bar will pop-up on the top so please after making changes please ensure that you hit tick mark 
+
+![image](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/318314b8-e79f-4f55-937c-0cbd8d132e8b)
+
+Next go to Storage section in left hand side navbar, go to `Filesystem`
+
+![image](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/c1471430-730d-40a8-9612-5c3ae2afce47)
+
+after this click on play button which says mount an existing file system and then select the drive
+
+![image](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/7b020bf4-9e95-471e-8b7e-f22b830bf92f)
+
+Click on shared folders and create a folder which you will access from the PC
+After this click on the created folder and give it read/write previlages 
+
+Next step go under Services section and then click on SMB/CIFS then enable it for file transfer between your computer and raspbeery pi
+
+Now under SMB/CIFS there would be new option called shares 
+![image](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/23f50f27-7615-4a46-b751-7ab857213e9e)
+
+and create a new share and add the shared folder and save it...
+
+Note : Don't forget to click on tick mark in the yellow box to change the configuration settings
+
+Hurray 🎉🎊 now we have setup our NAS which can be connected from any computer in local network. 
 
 
 
