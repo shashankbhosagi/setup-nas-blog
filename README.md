@@ -265,7 +265,26 @@ Hurray 🎉🎊 now we have setup our NAS which can be connected from any comput
 
 
 
+## Demonstration 
 
+### GO to file explorer 
+![image](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/ff46b55f-eae7-4daf-83a2-bd08d7dec636)
+### Click on networks in left sidebar
+![image](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/087c08f0-a06d-415a-b23d-0ba993a8d4a9)
+### Click on venom
+FIll the credentials and viola you will have access to the shared folder.
+![image](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/c5588881-4fc4-4c7d-90cd-bff3152d8281)
+
+## Enjoy 
+### You can create, delete, upload, download to the NAS 🎉
+
+
+
+
+## Credits 
+
+1) `Youtube Video` - https://youtu.be/zISwEoywvX4?si=agnCEETHVDnUO7Ee  : This was the video I reffered go and check them out it's amazing channel.
+2) `Blog` - https://core-electronics.com.au/guides/raspberry-pi/how-to-raspberry-pi-nas/    : I also refered this for some images to explain what I was telling.
 
 
 
