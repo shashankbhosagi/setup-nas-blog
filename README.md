@@ -81,7 +81,53 @@ Popular NAS manufacturers include Synology, QNAP, Western Digital, and Buffalo. 
 
 
 
-### Plugin your HardDrive or Pendrive
+### Step 2. Plugin your HardDrive or Pendrive
+ 
+1. **Connect the Hard Drive or Pendrive:**
+   - Plug in your hard drive or pendrive into an available USB port on your computer.
+
+2. **Open File Explorer:**
+   - Open File Explorer to view your connected drives.
+
+3. **Identify the Drive:**
+   - Identify the drive letter assigned to your hard drive or pendrive. It will be listed under "This PC" or "Computer."
+
+4. **Right-Click on the Drive:**
+   - Right-click on the drive you want to format.
+
+5. **Select "Format":**
+   - From the context menu, select "Format."
+
+6. **Choose File System:**
+   - In the Format window, under "File system," select "NTFS."
+
+7. **Allocation Unit Size (Optional):**
+   - You can choose the allocation unit size. The default setting is usually fine, but you can adjust it based on your preferences.
+
+8. **Volume Label (Optional):**
+   - You can provide a name for your drive in the "Volume label" field. This is optional.
+
+9. **Quick Format (Optional):**
+   - If you want to perform a quick format, check the "Quick Format" option. This will erase the data quickly but is less thorough than a full format.
+
+10. **Start the Format:**
+    - Click on the "Start" button to begin the formatting process.
+
+11. **Confirm Warning:**
+    - Confirm any warning prompts that appear, indicating that all data on the drive will be deleted.
+
+12. **Wait for Completion:**
+    - Wait for the formatting process to complete. This may take a few minutes.
+
+13. **Format Complete:**
+    - Once the format is complete, you will see a confirmation message.
+
+14. **Close the Format Window:**
+    - Close the Format window.
+
+      
+![Format_that_USB_Right_and_good_Complete](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/7a133c99-4e73-4dbe-96a4-7039710bc4ed)
+
 
 
 
