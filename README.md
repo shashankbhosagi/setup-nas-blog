@@ -188,6 +188,23 @@ sudo apt upgrade -y
  Congratualtions now your are connected to your PI!!! 🥳🥳🥳
 
 
+### Step 4. Installing Openmedia Vault on you PI 
+
+After upgrade paste this command which will start the installation process
+```bash
+sudo wget -O - https://coreelec.io/openmediavault  | sudo bash
+```
+
+Note : It will take time, better you be prepared with some entertaiment stuff 😂👾, I am gonna watch One Piece :)
+
+Okay now it will restart bois and girls after the installation.
+
+Note : If you are connected to a wifi network wireless then after reboot it won't connect wirelessly, so plug in the RJ45 in pi and connect it via Ethernet :)
+
+### Step 5. Configure OpenMediaVault
+
+
+
 
 
 
