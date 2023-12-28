@@ -129,10 +129,63 @@ Popular NAS manufacturers include Synology, QNAP, Western Digital, and Buffalo. 
 ![Format_that_USB_Right_and_good_Complete](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/7a133c99-4e73-4dbe-96a4-7039710bc4ed)
 
 
+### Step 3. Connecting all hardware 
+
+In this step connect raspbeery pi to power supply and also connect to hardrive to pi.
+Now wait for 2 minutes so that PI will bootup...
+
+### Step 4. Connect PI via SSH
+
+GO to your router configuration in web ( I am using TP-Link Wireless N Router WR840N ). For configuration go to http://192.168.0.1/ and enter the credentials, after that you must see this page.
+
+![Group 1](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/7fc7fb3c-ec94-42c9-b774-7f5853daf003)
+
+GO to DHCP settings
+
+![image](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/b728da64-7991-4feb-aad9-ffe6eb524b8c)
+
+Then under DHCP there is an option DHCP client list 
+
+![image](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/ae86e61d-aee3-4020-887d-7d97f0db826e)
+
+You will find you private ip address for the raspbeery pi here mine is venom yours maybe pi or whatever you setup..
+
+![Group 2](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/bdd05aac-6227-4062-a978-f57631dca74b)
 
 
+After getting the private IP address go to command prompt or powershell make sure you have SSH installed on your computer.
+
+TO connect to your pi enter this command 
+
+```bash
+ssh your-pi-name@pi's-private-ip-address
+```
+
+In my case 
+
+```bash
+ssh venom@192.168.0.105
+```
+See image below
+
+![image](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/cfdb7204-a3e8-4d63-a6c1-acfac29c62e6)
+
+After this you will prompted for fingerprinting type yes then enter the password which you put during setup
+after login it must look like this
+
+![image](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/981d7141-a3ec-4450-922d-af5c525c7b88)
 
 
+then run these commands
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt upgrade -y
+```
+
+ Congratualtions now your are connected to your PI!!! 🥳🥳🥳
 
 
 
