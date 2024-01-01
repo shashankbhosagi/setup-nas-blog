@@ -1,5 +1,7 @@
 # NAS
 
+Tip : first do installation while connected to wifi then after installation use ethernet, I just faced a problem :). I installed on ethernet connected but after installation it was not connecting...
+
 ## What is a Nas ?!
 NAS stands for Network Attached Storage. It's a type of dedicated file storage device that provides local-area network (LAN) nodes with file-based shared storage through a standard Ethernet connection. In simpler terms, a NAS device is like a specialized, high-capacity hard drive that is connected to your network and can be accessed by multiple devices.
 
