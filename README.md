@@ -280,7 +280,8 @@ FIll the credentials and viola you will have access to the shared folder.
 ## Enjoy 
 ### You can create, delete, upload, download to the NAS 🎉
 
-
+## Update
+### Further what I did was connect my NAS to cloudflare using tunnel. And now I can access my NAS from anywhere in the world ;)... 
 
 
 ## Credits 
