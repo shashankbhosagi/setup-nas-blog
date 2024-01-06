@@ -79,6 +79,8 @@ Popular NAS manufacturers include Synology, QNAP, Western Digital, and Buffalo. 
 14. **Insert MicroSD Card into Raspberry Pi:**
     - Insert the MicroSD card into the Raspberry Pi.
 
+Note : While installing raspbeery pi os install 64-bit if possible because, it may affect the further application you install ;).
+
 ![Putting_in_the_Micro_SD_card](https://github.com/shashankbhosagi/setup-nas-blog/assets/78866224/852d58ae-4aab-4574-9aa1-326d33aa4da0)
 
 
